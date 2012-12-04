@@ -1,1 +1,11 @@
 Здесь собраны лабы
+
+lex:
+flex fileName.l
+cc lex.yy.c -lfl
+./a.out
+
+yacc:
+yacc -d fileName.y
+cc y.tab.c
+./a.out
