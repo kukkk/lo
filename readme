@@ -9,3 +9,5 @@ yacc:
 yacc -d fileName.y
 cc y.tab.c
 ./a.out
+
+cc lex.yy.c tab.yy.c
